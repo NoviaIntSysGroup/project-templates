@@ -45,6 +45,7 @@ pytest-github-actions-annotate-failures = "*"
 pytest-cov = "*"
 python-kacl = "*"
 ruff = ">=0.2.0"
+gradio = "^4.31.5"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

@@ -88,6 +88,20 @@ poetry run pre-commit run --all-files
 
 ---
 
+## Using Poetry
+
+To add a pythond package, for instance `requests`, run:
+
+```sh
+poetry add requests
+```
+
+To add a dev depencency, use the --dev flag:
+
+```sh
+poetry add gradio --dev
+```
+
 ## Cruft
 If you created this project with Cruft and want to update to the newest settings in the original template, run:
 
@@ -97,3 +111,10 @@ cruft update
 
 
 This project was generated using the [project-templates](https://github.com/NoviaIntSysGroup/project-templates) template.
+
+
+## Run demo
+
+```sh
+poetry run gradio demo.py
+```
