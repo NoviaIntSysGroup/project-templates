@@ -88,4 +88,12 @@ poetry run pre-commit run --all-files
 
 ---
 
+## Cruft
+If you created this project with Cruft and want to update to the newest settings in the original template, run:
+
+```sh
+cruft update
+```
+
+
 This project was generated using the [project-templates](https://github.com/NoviaIntSysGroup/project-templates) template.
