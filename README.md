@@ -80,6 +80,8 @@ We update this cookiecutter template regularly to keep it up-to-date with the be
 ```sh
 cruft update
 ```
+![Cruft update](https://github.com/NoviaIntSysGroup/project-templates/raw/main/cruft-update.gif)
+
 
 ### Configure secrets
 
