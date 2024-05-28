@@ -1,10 +1,10 @@
-# Wolt Python Package Cookiecutter
+# Novia Intelligent Systems Group Python Package Cookiecutter
 
 A [cookiecutter](https://cookiecutter.readthedocs.io/en/latest/README.html) (project template) for rapidly developing new open source Python packages. Best practices with all the modern bells and whistles included.
 
-![Demo](https://github.com/woltapp/wolt-python-package-cookiecutter/raw/master/demo.gif)
+![Demo](https://github.com/NoviaIntSysGroup/project-templates/raw/master/demo.gif)
 
-## Example projects which use Wolt Python Package Cookiecutter
+## Example projects which use Novia Intelligent Systems Group Python Package Cookiecutter
 * [jerry-git/pytest-split](https://github.com/jerry-git/pytest-split)
 
 ## Features
@@ -59,7 +59,7 @@ Make sure you have [`cruft`](https://github.com/cruft/cruft#installation) instal
 Create a new project:
 
 ```sh
-cruft create https://github.com/woltapp/wolt-python-package-cookiecutter
+cruft create https://github.com/NoviaIntSysGroup/project-templates
 ```
 
 The CLI interface will ask some basic questions, such the name of the project, and then generate all the goodies
@@ -71,7 +71,7 @@ After that you can make it a proper git repo:
 cd <your-project-slug>
 git init
 git add .
-git commit -m "Initial project structure from Wolt Python Package cookiecutter"
+git commit -m "Initial project structure from Novia Intelligent Systems Group Python Package cookiecutter"
 ```
 
 We update this cookiecutter template regularly to keep it up-to-date with the best practices of the Python world. You
