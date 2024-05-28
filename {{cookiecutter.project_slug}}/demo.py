@@ -1,7 +1,7 @@
 import gradio as gr
 from {{ cookiecutter.package_name }}.hello import hello
 
-def greet(name, intensity):
+def greet(name, intensity) -> str:
     return hello(name) + "!" * int(intensity)
 
 demo = gr.Interface(

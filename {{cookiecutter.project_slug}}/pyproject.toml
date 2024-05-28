@@ -103,6 +103,10 @@ exclude_lines = [
 strict = true  # See all the enabled flags `mypy --help | grep -A 10 'Strict mode'`
 disallow_any_unimported = true
 
+[[tool.mypy.overrides]]
+module = ["gradio"]
+ignore_missing_imports = true
+
 # If you need to ignore something for some specific module,
 # add overrides for them. Avoid changing the global config!
 # For example:
