@@ -45,7 +45,7 @@ poetry shell
 ### Testing
 
 ```sh
-pytest
+poetry run pytest
 ```
 
 ### Documentation
@@ -71,19 +71,19 @@ Pre-commit hooks run all the auto-formatting (`ruff format`), linters (e.g. `ruf
 You can install the hooks with (runs for each commit):
 
 ```sh
-pre-commit install
+poetry run pre-commit install
 ```
 
 Or if you want them to run only for each push:
 
 ```sh
-pre-commit install -t pre-push
+poetry run pre-commit install -t pre-push
 ```
 
 Or if you want e.g. want to run all checks manually for all files:
 
 ```sh
-pre-commit run --all-files
+poetry run pre-commit run --all-files
 ```
 
 ---
