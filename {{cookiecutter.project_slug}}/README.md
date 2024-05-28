@@ -50,7 +50,7 @@ pytest
 
 ### Documentation
 
-The documentation is automatically generated from the content of the [docs directory](https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/tree/master/docs) and from the docstrings
+The documentation is automatically generated from the content of the [docs directory](https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/tree/main/docs) and from the docstrings
  of the public signatures of the source code. The documentation is updated and published as a [Github Pages page](https://pages.github.com/) automatically as part each release.
 
 ### Releasing
@@ -60,7 +60,7 @@ Trigger the [Draft release workflow](https://github.com/{{ cookiecutter.github_u
 
 Find the draft release from the
 [GitHub releases](https://github.com/{{ cookiecutter.github_username}}/{{ cookiecutter.project_slug }}/releases) and publish it. When
- a release is published, it'll trigger [release](https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/blob/master/.github/workflows/release.yml) workflow which creates PyPI
+ a release is published, it'll trigger [release](https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/blob/main/.github/workflows/release.yml) workflow which creates PyPI
  release and deploys updated documentation.
 
 ### Pre-commit

@@ -2,7 +2,7 @@
 
 A [cookiecutter](https://cookiecutter.readthedocs.io/en/latest/README.html) (project template) for rapidly developing new open source Python packages. Best practices with all the modern bells and whistles included.
 
-![Demo](https://github.com/NoviaIntSysGroup/project-templates/raw/master/demo.gif)
+![Demo](https://github.com/NoviaIntSysGroup/project-templates/raw/main/demo.gif)
 
 ## Example projects which use Novia Intelligent Systems Group Python Package Cookiecutter
 * [jerry-git/pytest-split](https://github.com/jerry-git/pytest-split)
