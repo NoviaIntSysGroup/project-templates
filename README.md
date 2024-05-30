@@ -5,7 +5,7 @@ A [cookiecutter](https://cookiecutter.readthedocs.io/en/latest/README.html) (pro
 ![Demo](https://github.com/NoviaIntSysGroup/project-templates/raw/main/demo.gif)
 
 ## Example projects which use Novia Intelligent Systems Group Python Package Cookiecutter
-* [jerry-git/pytest-split](https://github.com/jerry-git/pytest-split)
+* [NoviaIntSysGroup/sample-project](https://github.com/NoviaIntSysGroup/sample-project)
 
 ## Features
 
